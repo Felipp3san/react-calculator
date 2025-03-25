@@ -1,0 +1,18 @@
+@import "../../index.css";
+
+.button {
+	@apply flex justify-center items-center outline outline-neutral-900 cursor-pointer hover:outline-neutral-200 hover:z-10 hover:text-neutral-900 select-none;
+	font-family: 'Share Tech Mono';
+}
+
+.operation-button {
+	@apply bg-neutral-500 ;
+}
+
+.number-button {
+	@apply bg-neutral-600;
+}
+
+.equals-button {
+	@apply bg-blue-900;
+}
